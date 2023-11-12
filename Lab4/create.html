@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>HoBase</title>
+        <link rel="stylesheet" href="/css/main_page.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="page2" class="page2_class">
+            <form id="create_hotel" class="form_create">
+                <h1>Create hotel</h1>
+
+                <div class="input">
+                    <label for="example_name" class="form_input">Hotel name</label>
+                    <input type="text" class="form_control" id="name_input">
+                </div>
+                <div class="input">
+                    <label for="example_country" class="form_input">Country</label>
+                    <input type="text" class="form_control" id="country_input">
+                </div>
+                <div class="input">
+                    <label for="example_rooms" class="form_input">Rooms quantity</label>
+                    <input type="number" class="form_control" id="rooms_input">
+                </div>
+
+                <button id="submit_button" type="submit" class="submit_class">
+                    Submit
+                </button>
+            </form>
+        </div>
+        <script type="module" src="./js/create.js"></script>
+    </body>
+</html>
