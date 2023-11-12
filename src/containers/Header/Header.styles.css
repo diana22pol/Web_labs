@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 800px;
+    background-color: #333; 
+    color: #fff; 
+  }
+  
+  .logo img {
+    width: 40px; 
+    height: 40px; 
+  }
+
+  /* .pages_nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav_element {
+    font-size: 18px; 
+    font-weight: 200px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav_element:hover {
+    color: #ff9900; 
+  } */
+  
