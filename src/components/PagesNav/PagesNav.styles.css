@@ -1,0 +1,18 @@
+.pages_nav nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+  
+.nav_element a {
+    font-size: 18px; 
+    font-weight: 200px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+  
+.nav_element a:hover {
+    color: #ff9900; 
+}
