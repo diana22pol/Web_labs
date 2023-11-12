@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #FFA730;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.pages_nav_footer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.running-text-container {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .running-text {
+    font-size: 24px;
+    position: absolute;
+    white-space: nowrap;
+    animation: runText 10s linear infinite;
+  }
+  
+  @keyframes runText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
