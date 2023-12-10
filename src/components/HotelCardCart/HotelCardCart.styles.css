@@ -1,0 +1,28 @@
+.cart-card {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cart-card img{
+  display: flex;
+  border-radius: 25px;
+  width: 10vw;
+}
+
+.cart-card-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+  justify-content: center;
+}
+
+.cart-card-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.cart-card-price {
+  font-size: 16px;
+  margin: 0;
+  color: #FFA730;
+}

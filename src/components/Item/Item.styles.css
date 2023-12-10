@@ -1,0 +1,87 @@
+.hotel-card {
+    width: auto;
+    height: auto;
+    border: 3px solid #FFA730;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .hotel-card:hover {
+    border: 3px solid #E58D23;
+  }
+  
+  .hotel-card-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .hotel-card-content {
+    flex: 1;
+  }
+  
+  .hotel-card-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .hotel-card-price {
+    font-size: 20px;
+    margin: 0;
+    color: #E58D23;
+  }
+
+  .hotel-card-description {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .go_back {
+    text-decoration: none;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    background-color: #282F2F;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  
+  .go_back:hover {
+    background-color: #484949;
+  }
+
+  .add_to_cart {
+    font-family: Montserrat;
+    text-decoration: none;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    background-color: #282F2F;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+
+  .add_to_cart:hover {
+    background-color: #4ec562;
+  }
+
+  .hotel-card input {
+    position: relative;
+    width: auto;
+    margin: 20px;
+  }
