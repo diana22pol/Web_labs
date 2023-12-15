@@ -1,0 +1,30 @@
+.view_all{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.view_all_hotels{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: 3px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.view_all_hotels a {
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: 3px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
